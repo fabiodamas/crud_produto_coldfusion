@@ -1,3 +1,4 @@
 {
-    "workbench.iconTheme": "vs-cfml"
+    "workbench.iconTheme": "vs-cfml",
+    "workbench.colorTheme": "Default Dark+"
 }

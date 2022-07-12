@@ -151,21 +151,12 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 
-        <script>
-        $(document).ready(function(){
-        $("button").click(function(){
-            $.ajax({url: "demo_test.txt", success: function(result){
-            $("#div1").html(result);
-            }});
-        });
-        });
-        </script>
             <script>
                 function deleteRecord() {
                     var id = $(".delete_id").val();
 
                     $.ajax({
-                        url:"http://127.0.0.1:8500/crud_produto/produto-delete.cfm",
+                        url:"http://localhost:8500/crud_produto/produto-delete.cfm",
                         method:"POST",
                         data:{
                             id: id,
